@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FireBase CRUD operations</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: aqua;
+            font-family: Arial, sans-serif;
+        }
+        
+        .form {
+            margin: auto;
+            max-width: 400px;
+            padding: 2rem;
+            border-radius: 13px;
+            background-color: #fff;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+            text-align: center;
+            margin-top: 6rem;
+        }
+        
+        h1 {
+            font-size: 26px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+        }
+        
+        hr {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            border: none;
+            border-top: 1px solid #ccc;
+        }
+        
+        .form input {
+            margin-bottom: 1rem;
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            height: 40px;
+        }
+        
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2rem;
+        }
+        
+        .buttons button {
+            padding: 10px 1rem;
+            border-radius: 6px;
+            letter-spacing: 1px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            transition: background-color 0.3s;
+        }
+        
+        .buttons button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h1>CRUD WITH FIREBASE</h1>
+        <hr>
+        <form>
+            <label for="roll" class="stuHead1221">Roll No:</label>
+            <input type="text" id="roll" name="RollNo">
+            <br>
+            <label for="name" class="stuHead1221">Name:</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <label for="gender" class="stuHead1221">Gender:</label>
+            <input type="text" name="gender" id="gender">
+            <br>
+            <label for="address" class="stuHead1221">Address:</label>
+            <input type="text" name="Address" id="address">
+            <br>
+            <div class="buttons">
+                <button id="insert">Insert</button>
+                <button id="read">Read</button>
+                <button id="update">Update</button>
+                <button id="delete">Delete</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

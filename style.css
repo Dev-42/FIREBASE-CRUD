@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.form {
+    /* margin-left: 37rem; */
+    position: absolute;
+    top: 22%;
+    left: 33%;
+    /* border: 1px solid red; */
+    padding: 6rem;
+    border-radius: 13px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* position: relative; */
+}
+#head1221 {
+    /* margin-top: 2px; */
+    /* margin: 0; */
+    position: absolute;
+    top: 28px;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    left: 59px;
+}
+hr{
+    position: absolute;
+    width: 100%;
+    left: -1px;
+    /* bottom: 47px; */
+    top: 5rem;
+}
+.stuHead1221{
+    position: absolute;
+    right: 23rem;
+    /* top: 26px; */
+    margin: 17px
+}
+input{
+    margin: 5px;
+    width: 17rem;
+    padding: 7px;
+    border-radius: 3px;
+    height: 40px
+}
+.buttons {
+    /* margin: 0px; */
+    /* margin-top: 25px; */
+    /* width: 31px; */
+    /* padding: 2px; */
+    position: absolute;
+    top: 21rem;
+    left: 4rem;
+}
